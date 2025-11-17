@@ -146,8 +146,8 @@ All Lumynar UI components are designed to be easily customizable. You can overri
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Nayem707/nayem-ui-framework.git
-cd nayem-ui-framework
+git clone https://github.com/Nayem707/lumynar_ui.git
+cd lumynar_ui
 ```
 
 2. Install dependencies:
@@ -216,7 +216,7 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 **Nayem Islam**
 
 - GitHub: [@Nayem707](https://github.com/Nayem707)
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- Email: [inaeem707@gmail.com](mailto:inaeem707@gmail.com)
 
 ## 🙏 Acknowledgments
 
