@@ -1,13 +1,16 @@
 import React from 'react';
 
+// React version compatibility - works with React 15+ to 19+
 const Button = ({
   label,
+  children, // Support both label and children for flexibility
   onClick,
   variant = 'primary',
   size = 'md',
   disabled = false,
   className = '', // for Tailwind users
   style = {}, // for raw CSS users
+  ...restProps // Support all other button props
 }) => {
   // Tailwind classes for variants
   const tailwindVariants = {
@@ -23,6 +26,9 @@ const Button = ({
     lg: 'px-6 py-3 text-lg',
   };
 
+  // Content priority: children > label (for backward compatibility)
+  const buttonContent = children || label;
+
   return (
     <button
       onClick={onClick}
@@ -35,8 +41,9 @@ const Button = ({
             }` // fallback to Tailwind defaults
       }
       style={style} // raw CSS style can override everything
+      {...restProps} // Forward all other props
     >
-      {label}
+      {buttonContent}
     </button>
   );
 };

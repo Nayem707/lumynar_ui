@@ -1,4 +1,8 @@
 // Main exports for Lumynar UI
+// Compatible with React 15+ to React 19+
+
+// Initialize React compatibility layer
+import './utils/reactCompat';
 
 // Buttons
 export { default as Button } from './components/ui/buttons/Buttons';

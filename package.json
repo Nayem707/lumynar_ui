@@ -1,6 +1,6 @@
 {
   "name": "lumynar-ui",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "files": [
@@ -22,12 +22,20 @@
     "@babel/preset-react": "^7.18.0"
   },
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react": ">=15.0.0",
+    "react-dom": ">=15.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": false
+    },
+    "react-dom": {
+      "optional": false
+    }
   },
   "author": "Nayem Islam",
   "license": "ISC",
-  "description": "A modern, lightweight React UI components library built with simplicity and customization in mind",
+  "description": "A modern, lightweight React UI components library compatible with all React versions (15+ to 19+)",
   "keywords": [
     "react",
     "ui",
@@ -36,7 +44,14 @@
     "design-system",
     "button",
     "input",
-    "lumynar"
+    "lumynar",
+    "react-15",
+    "react-16",
+    "react-17",
+    "react-18",
+    "react-19",
+    "compatible",
+    "universal"
   ],
   "repository": {
     "type": "git",
