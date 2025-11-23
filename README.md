@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.svg" alt="Lumynar UI" width="100%" />
+  <img src="./src/assets/header.svg" alt="Lumynar UI" width="100%" />
 </div>
 
 # Lumynar UI
